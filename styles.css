@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to bottom right, #b5dafd, #4584d6)
+}
+
+header {
+    font-family: 'Comic Sans MS';
+    background: linear-gradient(#0a4eb4, #1a6ae2 20% 80%, #0a4eb4);
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+main {
+    margin-left: 160px;
+}
+
+.circleBtn {
+    background-color: #D195F8;
+    border: none;
+}
+
+.circleBtn:hover {
+    background-color: #c37df1;
+}
+
+.circleBtn:focus {
+    background-color: #ac71d3;
+}
+
+#insertCircleBtn:active {
+    background-color: #ac71d3;
+}
+
+#canvas {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+#shapeInfo {
+    width: 200px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+.square {
+    background-color: #FF4F39;
+    position: absolute;
+}
+
+.circle {
+    background-color: #D195F8;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.triangle {
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+
+.rectangle {
+    background-color: #248a1b;
+    position: absolute;
+}
